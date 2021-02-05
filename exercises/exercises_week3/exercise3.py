@@ -8,4 +8,4 @@ for number in numbers:
     else:
         odd += 1
 print("there were " + str(even) + " even numbers")
-print(odd)
+print("there were " + str(odd) + " odd numbers")
