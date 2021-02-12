@@ -1,4 +1,4 @@
-# aks the user for a word and count the number of different letters
+# ask the user for a word and count the number of different letters
 userInput = input("Give me a word and I will tell you how many different letters there are!")
 lettersDict = {}
 for letter in userInput:
