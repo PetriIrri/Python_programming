@@ -1,6 +1,6 @@
 def biggest(*numbers):
     if numbers:
-        result = 0
+        result = numbers[0]
         for number in numbers:
             if number > result:
                 result = number
@@ -10,7 +10,7 @@ def biggest(*numbers):
 
 def smallest(*numbers):
     if numbers:
-        result = 0
+        result = numbers[0]
         for number in numbers:
             if number < result:
                 result = number

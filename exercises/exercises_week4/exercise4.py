@@ -10,7 +10,7 @@ def factorial(number: int = 0):
         # reduce multiplier by 1 for each iteration
         while multiplier > 1:
             multiplier -= 1
-            result = number * multiplier + result
+            result += number * multiplier
     return result
 
 print("Factorial is:", factorial(4))

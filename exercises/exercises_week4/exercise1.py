@@ -5,7 +5,7 @@ def multiplicator(*numbers):
         if iteration == 0:
             result = number
         else:
-            # on successive iteration multiply
+            # on successive iterations multiply
             result = result * number
     return result
 
