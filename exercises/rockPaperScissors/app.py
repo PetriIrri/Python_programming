@@ -4,9 +4,9 @@ from cpuPlayer import CPUPlayer
 def main():
     print("Welcome to rock paper scissors!")
     # Ask player for name and create player object
-    player = HumanPlayer(input("Please give your name: "))
+    player = HumanPlayer(input("Please give me your name: "))
     # Crete cpu object
-    cpu = CPUPlayer("Tietokone")
+    cpu = CPUPlayer("Computer")
     # Store the moves as string list
     moves = ["Rock", "Paper", "Scissors"]
     
