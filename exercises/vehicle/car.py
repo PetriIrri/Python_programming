@@ -3,11 +3,9 @@ from values import Terrain
 
 class Car(Vehicle):
     def __init__(self, x, y):
+        super().__init__(2, x, y)
         self.name = "Auto"
         self.symbol = "A"
-        self.speed = 2
-        self.position = (x, y)
-        self.InitAllowedTerrains()
 
     def InitAllowedTerrains(self):
         ''' Määrittää millaisessa maastossa ajoneuvolla voi ajaa. Arvot values.Terrain-enumin arvoja.'''

@@ -3,11 +3,10 @@ from values import Terrain
 
 class Boat(Vehicle):
     def __init__(self, x, y):
+        super().__init__(1, x, y)
         self.name = "Vene"
         self.symbol = "V"
-        self.speed = 1
-        self.position = (x, y)
-        self.InitAllowedTerrains()
+        
 
     def InitAllowedTerrains(self):
         ''' Määrittää millaisessa maastossa ajoneuvolla voi ajaa. Arvot values.Terrain-enumin arvoja.'''

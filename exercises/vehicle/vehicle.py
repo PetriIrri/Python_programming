@@ -1,4 +1,5 @@
-from values import Terrain
+from values import Terrain, Direction
+from map import Map
 
 class Vehicle:
   ''' Kantaluokka kaikille ajoneuvoille '''

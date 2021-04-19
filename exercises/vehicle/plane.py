@@ -3,11 +3,9 @@ from values import Terrain
 
 class Plane(Vehicle):
     def __init__(self, x, y):
+        super().__init__(3, x, y)
         self.name = "Lentokone"
         self.symbol = "L"
-        self.speed = 3
-        self.position = (x, y)
-        self.InitAllowedTerrains()
 
     def InitAllowedTerrains(self):
         ''' Määrittää millaisessa maastossa ajoneuvolla voi ajaa. Arvot values.Terrain-enumin arvoja.'''
