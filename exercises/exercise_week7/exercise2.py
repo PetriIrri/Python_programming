@@ -12,9 +12,8 @@ def romanToNum(value = str):
             i += 1
     return number
 
-
 def numToRoman(value = int):
-    dictio = {1000: 'M', 900: 'CM', 500: 'D', 400: 'CD', 100: 'C', 90: 'XC', 50: 'L', 40: 'XL', 10: 'x', 9: 'IX', 5: 'V', 4:'IV', 1:'I'}
+    dictio = {1000: 'M', 900: 'CM', 500: 'D', 400: 'CD', 100: 'C', 90: 'XC', 50: 'L', 40: 'XL', 10: 'X', 9: 'IX', 5: 'V', 4:'IV', 1:'I'}
     # Variable that stores the roman numerals answer
     roman = ""
     while value > 0:
@@ -26,8 +25,8 @@ def numToRoman(value = int):
     return roman
 
 def main():
-    print("Numero roomalaisittain:", numToRoman(2000))
-    print("Roomalainen käännettynä:", romanToNum("MM"))
+    print("Numero roomalaisittain:", numToRoman(2524))
+    print("Roomalainen käännettynä:", romanToNum("MMCMCLXXIVLL"))
 
 if __name__ == "__main__":
     main()
